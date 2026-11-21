@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_el"]
+
+[resource]
+script = ExtResource("1_el")
+id = "Element"
+name = "4500 W water heater element"
+price = 32
+size = 1
+category = "Water heater"
+short = "Element"
+description = "4500 W, 240 V screw-in water heater element, with its gasket. About 13 ohms when it's good."

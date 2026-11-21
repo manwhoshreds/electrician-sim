@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_cpxt1"]
+
+[resource]
+script = ExtResource("1_cpxt1")
+definition_id = "weak"
+title = "Breaker trips below its rating"
+category = "troubleshooting"
+complaint_templates = Array[String](["The {circuit} breaker keeps tripping whenever the {appliance} runs.", "The {appliance} keeps cutting out. The breaker trips."])
+difficulty = 3
+base_compensation = 216
+generation_strategy = "breaker_trip"
+objective_templates = Array[String](["Restore the circuit with correctly rated protection"])
+kind = "weak"
+family = "panel"
+issue = "Breaker keeps tripping (%s)"
+greeting = "Glad you're here. I keep losing the %s. The breaker pops every time the %s runs."
+answer_when = "A couple of weeks now, and it's getting more often."
+answer_touched = "I reset it every time. Sometimes it holds for a while, sometimes only a few seconds."
+answer_new = "No, the %s is the only thing on there and we've had it for years."
+weight = 10.0
+eligibility = Array[String](["has_heavy_circuit"])
+labor_minutes = 45
+materials = Array[String](["breaker20"])

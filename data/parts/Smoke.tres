@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_12wvk"]
+
+[resource]
+script = ExtResource("1_12wvk")
+id = "Smoke"
+name = "Hardwired smoke detector"
+price = 28
+category = "Life safety"
+short = "Smoke detector"
+description = "Hardwired, interconnected smoke detector with battery backup, on a plug-in harness."

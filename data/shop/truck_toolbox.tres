@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "truck_toolbox"
+name = "Truck Tool Box"
+sub = "Low Profile, 71 in"
+category = "Truck & Vehicle"
+price = 349
+was = 0
+stars = 4.6
+reviews = 214
+description = "Diamond-plate aluminum crossover box. Locks, weather-sealed, and room for four more things on the truck."
+effect = "truck_space"
+amount = 4
+vehicle = ""

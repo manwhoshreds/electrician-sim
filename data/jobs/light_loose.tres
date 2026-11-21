@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_hgarb"]
+
+[resource]
+script = ExtResource("1_hgarb")
+kind = "light_loose"
+issue = "No light in the %s"
+greeting = "The light in the %s won't come on. It flickered for a few days first. New bulb, still nothing."
+answer_when = "It's been flickering about a week. Now it's just off."
+answer_touched = "Everything else on the breaker works."
+answer_new = "Just the new bulb."
+box = "switch"
+box_fault = "loose_screw"
+definition_id = "light_loose"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working:Switch"])
+labor_minutes = 30

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_dead"]
+
+[resource]
+script = ExtResource("1_dead")
+definition_id = "dead_receptacles"
+title = "Dead receptacles"
+category = "troubleshooting"
+complaint_templates = Array[String](["My {room} {outlets} quit working.", "There is no power at the {outlets} in the {room}.", "Something killed the {room} {outlets}, but the breaker looks normal."])
+difficulty = 2
+base_compensation = 205
+generation_strategy = "dead_receptacles"
+objective_templates = Array[String](["Restore power to every affected receptacle"])
+kind = "dead_receptacles"
+family = "device"
+issue = "Dead receptacles in the %s"
+greeting = "The outlets in the %s quit on me. The breaker looks normal, but nothing I plug in works."
+answer_when = "Yesterday. The power flickered once, then they went dead."
+answer_touched = "I flipped the breaker off and back on. It made no difference."
+answer_new = "Nothing new. The same things we always use."
+box = "strategy"
+weight = 4.0
+eligibility = Array[String](["has_working:Receptacle"])
+causes = {"loose": 2.0, "scorched": 1.0, "bad_splice": 2.0}
+labor_minutes = 60
+materials = Array[String](["Receptacle"])

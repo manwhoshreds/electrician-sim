@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_iej4j"]
+
+[resource]
+script = ExtResource("1_iej4j")
+id = "breaker15"
+name = "15 A breaker"
+price = 9
+breaker_rating = 15
+category = "Breakers"
+short = "15 A breaker"
+description = "Single-pole, 15 amps. For 14-gauge circuits: lights and general plugs."

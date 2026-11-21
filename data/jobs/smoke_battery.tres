@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_am01s"]
+
+[resource]
+script = ExtResource("1_am01s")
+kind = "smoke_battery"
+issue = "Smoke detector chirping"
+greeting = "One of the smoke detectors keeps chirping and it's driving me crazy. I can't tell which one it is."
+answer_when = "Two days now. Every thirty seconds or so."
+answer_touched = "I haven't touched them. They're up on the ceiling."
+answer_new = "No. They've been up there a few years."
+box = "smoke"
+quote_part = "Battery9V"
+definition_id = "smoke_battery"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working_detector"])
+labor_minutes = 15
+materials = Array[String](["Battery9V"])

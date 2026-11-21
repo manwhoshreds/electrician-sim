@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "headlamp"
+name = "LED Headlamp"
+sub = "Rechargeable, 600 Lumen"
+category = "Tools"
+price = 39
+was = 0
+stars = 4.8
+reviews = 512
+description = "Hands-free light for attics, crawlspaces and night calls. Press L to switch it on and off."
+effect = "headlamp"
+amount = 0
+vehicle = ""

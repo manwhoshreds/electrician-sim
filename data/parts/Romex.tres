@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_rx"]
+
+[resource]
+script = ExtResource("1_rx")
+id = "Romex"
+name = "14/2 NM-B cable, 50 ft coil"
+price = 45
+size = 2
+category = "Boxes & cable"
+short = "14/2 coil"
+description = "Fifty feet of 14/2 with ground, for 15 A circuits. Billed to the customer by the foot you pull."

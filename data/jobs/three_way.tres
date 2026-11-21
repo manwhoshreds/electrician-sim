@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_g608b"]
+
+[resource]
+script = ExtResource("1_g608b")
+kind = "three_way"
+issue = "Light only works from one switch (%s)"
+greeting = "The light in the %s only works from one of its two switches. The other one does nothing at all."
+answer_when = "A week or so. You flip the hall one and nothing happens."
+answer_touched = "The breaker's fine. The light works from the door."
+answer_new = "Nothing new."
+box = "switch3"
+box_fault = "worn"
+room = "living room"
+quote_part = "ThreeWay"
+definition_id = "three_way"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working:ThreeWay"])
+labor_minutes = 50
+materials = Array[String](["ThreeWay"])

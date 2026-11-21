@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "work_van"
+name = "Work Van (Used)"
+sub = "Shelving, Roof Rack, Ladder"
+category = "Truck & Vehicle"
+price = 2500
+was = 0
+stars = 4.2
+reviews = 38
+description = "A high-roof work van, fitted out with shelving. Holds 30 to the pickup's 8. Your stock moves over when it's delivered."
+effect = "vehicle"
+amount = 0
+vehicle = "van"

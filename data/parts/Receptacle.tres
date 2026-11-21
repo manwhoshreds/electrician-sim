@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_pycwv"]
+
+[resource]
+script = ExtResource("1_pycwv")
+id = "Receptacle"
+name = "Duplex receptacle"
+price = 3
+category = "Devices"
+short = "Duplex receptacle"
+description = "15 A, 125 V duplex receptacle. Brass screws for the hot, silver for the neutral, green for ground."

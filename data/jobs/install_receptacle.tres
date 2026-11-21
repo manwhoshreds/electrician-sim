@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_inst"]
+
+[resource]
+script = ExtResource("1_inst")
+definition_id = "install_receptacle"
+title = "New receptacle"
+category = "installation"
+complaint_templates = Array[String](["Could you put an outlet in the {room}, {where}? I've marked the spot on the wall.", "I'd like a new outlet in the {room}, {where}. There's a pencil mark where I want it."])
+difficulty = 2
+base_compensation = 240
+generation_strategy = "install_device"
+objective_templates = Array[String](["Install the new receptacle, wired and powered"])
+kind = "install_receptacle"
+family = "install"
+issue = "New outlet (%s)"
+greeting = "Thanks for coming. I want an outlet where I've put the pencil mark. Running an extension cord over there is driving me mad."
+asks_questions = false
+box = "install"
+box_fault = "Receptacle"
+quote_part = "Receptacle"
+weight = 4.0
+eligibility = Array[String](["has_install_spot", "no_open_install"])
+urgency = "appointment"
+expires_after_hours = 24.0
+labor_minutes = 90
+materials = Array[String](["Receptacle", "OldWork"])

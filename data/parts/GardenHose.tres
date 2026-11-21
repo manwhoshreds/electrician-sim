@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_gh"]
+
+[resource]
+script = ExtResource("1_gh")
+id = "GardenHose"
+name = "50 ft garden hose"
+price = 25
+size = 0
+category = "Water heater"
+short = "Garden hose"
+description = "Screws onto a water heater's drain valve. Run it outside before you open the drain, or the tank goes on the floor."

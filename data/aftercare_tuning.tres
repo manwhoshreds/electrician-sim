@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="AftercareTuning" format=3 uid="uid://vl8t36ok7jeu"]
+
+[ext_resource type="Script" uid="uid://c7kavnd7knsgb" path="res://scripts/data/aftercare_tuning.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+good_work_callback_percent = 19.0
+days_played = 7

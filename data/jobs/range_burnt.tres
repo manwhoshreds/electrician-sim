@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_de7df"]
+
+[resource]
+script = ExtResource("1_de7df")
+kind = "range_burnt"
+issue = "Burnt stove outlet (%s)"
+greeting = "The stove in the %s quit with a bang, and there's a burnt smell coming from behind it."
+answer_when = "Dinner time yesterday. All four burners and the oven going at once."
+answer_touched = "The big breaker was tripped. I put it back on and nothing."
+answer_new = "Nothing new. It's twenty years old, mind."
+box = "outlet"
+box_fault = "scorched"
+quote_part = "Range"
+definition_id = "range_burnt"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working:Range"])
+urgency = "emergency"
+labor_minutes = 60
+materials = Array[String](["Range"])

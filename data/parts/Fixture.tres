@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_1h06n"]
+
+[resource]
+script = ExtResource("1_1h06n")
+id = "Fixture"
+name = "Ceiling light fixture"
+price = 35
+size = 3
+category = "Lighting"
+short = "Light fixture"
+description = "Ceiling light fixture with a glass shade. Black lead to the switched hot, white to neutral."

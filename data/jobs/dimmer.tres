@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_5ccjm"]
+
+[resource]
+script = ExtResource("1_5ccjm")
+kind = "dimmer"
+issue = "Wants a dimmer (%s)"
+greeting = "Could you put a dimmer on the light in the %s? I'd like to turn it down in the evenings."
+answer_when = "Oh, nothing's broken."
+answer_touched = "No need, it all works."
+answer_new = "LED bulbs, if that matters for the dimmer."
+asks_questions = false
+box = "switch"
+room = "bedroom"
+quote_part = "Dimmer"
+definition_id = "dimmer"
+generation_strategy = "on_arrival"
+category = "installation"
+weight = 4.0
+eligibility = Array[String](["has_working:Switch"])
+urgency = "appointment"
+labor_minutes = 30

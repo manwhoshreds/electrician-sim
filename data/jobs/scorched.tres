@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_gsnug"]
+
+[resource]
+script = ExtResource("1_gsnug")
+kind = "scorched"
+issue = "Burnt outlet in the %s"
+greeting = "The outlet in the %s went pop when I plugged the space heater in. Now it's dead and there's a black mark on it."
+answer_when = "Last night. A pop, a flash, and a smell like burnt hair."
+answer_touched = "I haven't touched a thing. I'm scared to."
+answer_new = "The space heater. It's a big one."
+box = "outlet"
+box_fault = "scorched"
+quote_part = "Receptacle"
+definition_id = "scorched"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working:Receptacle"])
+urgency = "emergency"
+labor_minutes = 45
+materials = Array[String](["Receptacle"])

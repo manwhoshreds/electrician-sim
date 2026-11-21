@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hole_saw_kit"
+name = "Hole Saw Kit"
+sub = "13 Pieces, Bi-Metal"
+category = "Power Tools"
+price = 69
+was = 0
+stars = 4.5
+reviews = 268
+description = "Sizes from 3/4 in to 4-1/2 in, with arbors. For boxes, can lights and running pipe through framing."
+effect = ""
+amount = 0
+vehicle = ""

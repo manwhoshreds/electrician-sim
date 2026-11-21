@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "tool_bag"
+name = "Pro Tool Bag"
+sub = "18 in, 30 Pockets"
+category = "Storage & Organization"
+price = 89
+was = 119
+stars = 4.7
+reviews = 301
+description = "A bigger job bag: four more things carried in from the truck."
+effect = "bag_slots"
+amount = 4
+vehicle = ""

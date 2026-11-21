@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_wf"]
+
+[resource]
+script = ExtResource("1_wf")
+id = "Wafer"
+name = "6\" LED wafer light"
+price = 24
+size = 1
+category = "Lighting"
+short = "Wafer light"
+description = "A slim 6\" LED recessed light with its own snap-shut junction box. No can, no housing: it clips into the drywall, so it doesn't care where the joists are."

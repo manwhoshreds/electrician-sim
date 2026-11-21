@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "bed_drawers"
+name = "Bed Drawer System"
+sub = "2-Drawer Slide-Out"
+category = "Truck & Vehicle"
+price = 599
+was = 0
+stars = 4.5
+reviews = 92
+description = "Two full-length drawers under a flat deck. Eight more things on the truck, all of it easy to reach."
+effect = "truck_space"
+amount = 8
+vehicle = ""

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_bsoxo"]
+
+[resource]
+script = ExtResource("1_bsoxo")
+id = "Range"
+name = "50 A range receptacle"
+price = 24
+size = 2
+category = "Devices"
+short = "Range receptacle"
+description = "50 A, 125/250 V range receptacle (NEMA 14-50). X, Y, neutral and ground lugs."

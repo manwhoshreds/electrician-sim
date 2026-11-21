@@ -1,0 +1,28 @@
+# Godot 4 cache / editor state (regenerated automatically)
+.godot/
+*.translation
+
+# Export output
+export/
+build/
+*.pck
+*.exe
+*.x86_64
+*.apk
+
+# Godot export presets can contain keystore passwords; uncomment if you add secrets
+# export_presets.cfg
+
+# Blender backup/autosave files
+*.blend1
+*.blend2
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
+
+# Logs
+*.log

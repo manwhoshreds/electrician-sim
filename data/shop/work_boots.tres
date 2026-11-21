@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "work_boots"
+name = "EH Work Boots"
+sub = "Electrical Hazard Rated"
+category = "Workwear"
+price = 149
+was = 0
+stars = 4.6
+reviews = 228
+description = "Comfortable all day. You tire 10% slower on your feet."
+effect = "work_boots"
+amount = 0
+vehicle = ""

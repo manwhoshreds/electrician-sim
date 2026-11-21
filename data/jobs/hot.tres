@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_7pirx"]
+
+[resource]
+script = ExtResource("1_7pirx")
+kind = "hot"
+family = "panel"
+issue = "Weak power, hot smell (%s)"
+greeting = "Something's wrong with the %s. Everything on it runs weak, and there's a hot plastic smell by the panel."
+answer_when = "It's been creeping up for a month. The smell's new this week."
+answer_touched = "I put my hand on it once, and it was warm. Is that bad? It feels bad."
+answer_new = "Nothing. It's just the same old %s."
+definition_id = "hot"
+generation_strategy = "breaker_fault"
+weight = 10.0
+eligibility = Array[String](["has_live_circuit"])
+labor_minutes = 45
+materials = Array[String](["breaker20"])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_5gxqe"]
+
+[resource]
+script = ExtResource("1_5gxqe")
+kind = "callback"
+family = "callback"
+issue = "WARRANTY CALLBACK on your work"
+asks_questions = false

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_y0s8j"]
+
+[resource]
+script = ExtResource("1_y0s8j")
+id = "Battery9V"
+name = "9 V battery"
+price = 3
+category = "Life safety"
+short = "9 V battery"
+description = "Backup battery for a hardwired smoke detector."

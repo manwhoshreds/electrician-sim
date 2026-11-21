@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_k1iya"]
+
+[resource]
+script = ExtResource("1_k1iya")
+definition_id = "overload"
+title = "Overloaded branch circuit"
+category = "troubleshooting"
+complaint_templates = Array[String](["The {circuit} keep going off. I reset the breaker and it goes again.", "We keep losing the {circuit}. Every time, it's the breaker."])
+difficulty = 2
+base_compensation = 205
+generation_strategy = "breaker_trip"
+objective_templates = Array[String](["Remove the overload and restore the circuit"])
+kind = "overload"
+family = "panel"
+issue = "Breaker keeps tripping (%s)"
+greeting = "Glad you're here. I keep losing the %s. The breaker pops every time the %s runs."
+answer_when = "Since the cold snap, really. A week or two."
+answer_touched = "I reset it every time. It holds fine until I use the %s."
+answer_new = "Just a little space heater. It's been freezing in there."
+weight = 10.0
+eligibility = Array[String](["has_overloadable_circuit"])
+labor_minutes = 30

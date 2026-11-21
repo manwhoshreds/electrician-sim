@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_wh"]
+
+[resource]
+script = ExtResource("1_wh")
+kind = "wh_eco"
+family = "heater"
+issue = "No hot water"
+greeting = "There's no hot water in the house. It was fine last night."
+answer_when = "This morning. Cold shower for everyone."
+answer_touched = "The breaker's on. I checked it."
+answer_new = "No, nothing new."
+box = "heater"
+box_fault = "eco"
+quote_part = ""
+definition_id = "wh_eco"
+generation_strategy = "water_heater"
+weight = 5.0
+eligibility = Array[String](["water_heater_working"])
+labor_minutes = 40

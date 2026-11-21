@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_wh"]
+
+[resource]
+script = ExtResource("1_wh")
+kind = "wh_upper"
+family = "heater"
+issue = "No hot water"
+greeting = "We've got no hot water at all. Not even lukewarm. The tap runs cold forever."
+answer_when = "Yesterday morning. My shower went cold halfway and it never came back."
+answer_touched = "I flipped the big double breaker off and on. Didn't help."
+answer_new = "No. Nothing's changed. It's the same old heater in the laundry."
+box = "heater"
+box_fault = "upper_element"
+quote_part = "Element"
+definition_id = "wh_upper"
+generation_strategy = "water_heater"
+weight = 5.0
+eligibility = Array[String](["water_heater_working"])
+labor_minutes = 90
+materials = Array[String](["Element"])

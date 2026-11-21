@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_jp5lc"]
+
+[resource]
+script = ExtResource("1_jp5lc")
+id = "breaker30"
+name = "30 A breaker"
+price = 14
+breaker_rating = 30
+category = "Breakers"
+short = "30 A breaker"
+description = "30 amps. For 10-gauge circuits: dryers and water heaters."

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rolling_toolbox"
+name = "Rolling Tool Box System"
+sub = "3-Piece"
+category = "Storage & Organization"
+price = 289
+was = 0
+stars = 4.5
+reviews = 339
+description = "Stacking rolling boxes. Wheel six more things into the house with you."
+effect = "bag_slots"
+amount = 6
+vehicle = ""

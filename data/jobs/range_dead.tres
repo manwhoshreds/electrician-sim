@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_gs1wc"]
+
+[resource]
+script = ExtResource("1_gs1wc")
+kind = "range_dead"
+issue = "Stove won't heat (%s)"
+greeting = "The stove in the %s is half dead. The clock's on but not one burner heats up, and the oven's cold."
+answer_when = "Since we pulled it out to clean behind it on Sunday."
+answer_touched = "The breaker's on. Both halves of it."
+answer_new = "No, it's the same old stove."
+box = "outlet"
+box_fault = "loose_lug"
+definition_id = "range_dead"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working:Range"])
+labor_minutes = 45

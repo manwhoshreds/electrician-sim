@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_81if2"]
+
+[resource]
+script = ExtResource("1_81if2")
+kind = "fan"
+issue = "Wants a ceiling fan (%s)"
+greeting = "I'd love a ceiling fan in the %s. It's an oven in there at night. I bought one already, it's in the box by the front door. Can you swap the light for it?"
+answer_when = "Every summer, honestly."
+answer_touched = "Nothing's broken. I just want a fan."
+answer_new = "You'd be the something new."
+asks_questions = false
+box = "fixture"
+room = "bedroom"
+quote_part = "Fan"
+customer_part = "Fan"
+definition_id = "fan"
+generation_strategy = "on_arrival"
+category = "installation"
+weight = 4.0
+eligibility = Array[String](["has_working:Fixture"])
+urgency = "appointment"
+labor_minutes = 90

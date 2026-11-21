@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_wh"]
+
+[resource]
+script = ExtResource("1_wh")
+kind = "wh_lower"
+family = "heater"
+issue = "Hot water runs out"
+greeting = "The hot water runs out in about five minutes. Then it's lukewarm at best."
+answer_when = "It's been getting worse for a couple of weeks."
+answer_touched = "No, the breaker's never tripped."
+answer_new = "Nope. Same heater, same family. We're not showering any longer than we used to."
+box = "heater"
+box_fault = "lower_element"
+quote_part = "Element"
+definition_id = "wh_lower"
+generation_strategy = "water_heater"
+weight = 5.0
+eligibility = Array[String](["water_heater_working"])
+labor_minutes = 90
+materials = Array[String](["Element"])

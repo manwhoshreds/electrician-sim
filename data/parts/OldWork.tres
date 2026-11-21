@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_ow"]
+
+[resource]
+script = ExtResource("1_ow")
+id = "OldWork"
+name = "Old-work box and 14/2 cable"
+price = 14
+size = 1
+category = "Boxes & cable"
+short = "Old-work box"
+description = "An old-work box that clamps into drywall, with a length of 14/2 cable to fish back to a feed."

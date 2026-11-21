@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_2gh2b"]
+
+[resource]
+script = ExtResource("1_2gh2b")
+definition_id = "light_switch"
+title = "Failed light switch"
+category = "troubleshooting"
+complaint_templates = Array[String](["The light in the {room} will not turn on, even with a new bulb.", "The {room} switch stopped controlling the light."])
+difficulty = 2
+base_compensation = 209
+generation_strategy = "device_fault"
+objective_templates = Array[String](["Restore normal operation of the light switch"])
+kind = "light_switch"
+issue = "No light in the %s"
+greeting = "The light in the %s won't come on. I put a brand new bulb in and still nothing."
+answer_when = "Last night. The switch felt kind of mushy, then nothing."
+answer_touched = "The breaker? Everything else on it works."
+answer_new = "Just the new bulb. LED, same as always."
+box = "switch"
+box_fault = "worn"
+quote_part = "Switch"
+weight = 4.0
+eligibility = Array[String](["has_working:Switch"])
+labor_minutes = 40
+materials = Array[String](["Switch"])

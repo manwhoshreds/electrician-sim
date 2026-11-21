@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_bgnyi"]
+
+[resource]
+script = ExtResource("1_bgnyi")
+kind = "smoke_expired"
+issue = "Smoke detector chirping"
+greeting = "There's a smoke detector chirping somewhere. I changed every battery last month, so it's not that."
+answer_when = "Since the weekend."
+answer_touched = "I put new batteries in all of them last month."
+answer_new = "No, they came with the house."
+box = "smoke"
+quote_part = "Smoke"
+definition_id = "smoke_expired"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working_detector"])
+labor_minutes = 20
+materials = Array[String](["Smoke"])

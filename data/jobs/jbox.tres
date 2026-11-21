@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_dwd6i"]
+
+[resource]
+script = ExtResource("1_dwd6i")
+kind = "jbox"
+issue = "Power's out in %s, breaker's fine"
+greeting = "The power's gone out in %s. Lights, plugs, everything. The breaker isn't tripped, I've flipped it off and on twice."
+answer_when = "Last night. The lights flickered for a second, and then they were just gone."
+answer_touched = "I flipped it off and on. It's on, it just doesn't do anything."
+answer_new = "Nothing new. We did have a guy up in the attic blowing in insulation last month, if that matters."
+box = "junction"
+box_fault = "bad_splice"
+definition_id = "jbox"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_attic"])
+labor_minutes = 75

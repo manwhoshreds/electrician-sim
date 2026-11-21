@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "fish_tape"
+name = "Steel Fish Tape"
+sub = "50 ft, 1/8 in"
+category = "Tools"
+price = 45
+was = 0
+stars = 4.4
+reviews = 341
+description = "Pulls wire through walls, ceilings and conduit when you can't open them up."
+effect = ""
+amount = 0
+vehicle = ""

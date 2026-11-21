@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "gloves"
+name = "Insulated Rubber Gloves"
+sub = "Class 0, 1000 V, with Protectors"
+category = "Safety"
+price = 119
+was = 0
+stars = 4.9
+reviews = 87
+description = "Rated rubber gloves under leather protectors. Touch something live by mistake and they take it, not you."
+effect = "insulated_gloves"
+amount = 0
+vehicle = ""

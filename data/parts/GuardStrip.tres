@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_gs"]
+
+[resource]
+script = ExtResource("1_gs")
+id = "GuardStrip"
+name = "2x4 guard strip, 8 ft"
+price = 6
+size = 2
+category = "Boxes & cable"
+short = "Guard strip"
+description = "A 2x4 to lay across the joist tops in an accessible attic. Staple the cable to it so nobody steps on it or snags it."

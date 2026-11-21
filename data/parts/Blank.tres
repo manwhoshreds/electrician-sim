@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_bk"]
+
+[resource]
+script = ExtResource("1_bk")
+id = "Blank"
+name = "Round blank cover"
+price = 3
+size = 1
+category = "Boxes & cable"
+short = "Blank cover"
+description = "A plain round cover for a ceiling box you've taken a light off and spliced through."

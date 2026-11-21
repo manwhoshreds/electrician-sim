@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "light_bar"
+name = "LED Light Bar"
+sub = "20 in, Combo Beam"
+category = "Truck & Vehicle"
+price = 129
+was = 0
+stars = 4.4
+reviews = 176
+description = "Roof-mounted LED bar. Lights up the road ahead when you're driving after dark."
+effect = "light_bar"
+amount = 0
+vehicle = ""

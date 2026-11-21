@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_rcs"]
+
+[resource]
+script = ExtResource("1_rcs")
+definition_id = "recessed"
+title = "Recessed lighting"
+category = "installation"
+complaint_templates = Array[String](["I want that old dome light in the {room} gone. Can you put in {count} of those thin recessed lights instead, on the same switch?", "Could you do {count} recessed lights in the {room}? The wafer kind. Even spacing, please, and lose the old light in the middle."])
+difficulty = 3
+base_compensation = 560
+generation_strategy = "recessed_lights"
+objective_templates = Array[String](["Four wafers in, wired, lit off the old light's switch"])
+kind = "recessed"
+family = "recessed"
+issue = "Recessed lights (%s)"
+greeting = "I want recessed lights instead of that old light."
+asks_questions = false
+box = ""
+quote_part = "Wafer"
+customer_part = "Wafer"
+weight = 3.0
+eligibility = Array[String](["has_attic", "can_add_recessed"])
+urgency = "appointment"
+expires_after_hours = 48.0
+labor_minutes = 240
+materials = Array[String](["Blank", "Romex", "GuardStrip"])

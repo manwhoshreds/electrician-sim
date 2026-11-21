@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "wire_strippers"
+name = "Wire Stripper/Cutter"
+sub = "10-18 AWG Solid"
+category = "Tools"
+price = 29
+was = 0
+stars = 4.8
+reviews = 905
+description = "Strips, cuts and loops solid copper. Spring-loaded, with a grip that fits a gloved hand."
+effect = ""
+amount = 0
+vehicle = ""

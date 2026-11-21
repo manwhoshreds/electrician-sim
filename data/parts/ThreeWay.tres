@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_jhu8u"]
+
+[resource]
+script = ExtResource("1_jhu8u")
+id = "ThreeWay"
+name = "3-way switch"
+price = 9
+category = "Devices"
+short = "3-way switch"
+description = "3-way switch: two traveller screws and a dark COMMON screw. Controls a light from two places."

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_ydnh0"]
+
+[resource]
+script = ExtResource("1_ydnh0")
+definition_id = "bad_gfci"
+title = "Failed GFCI receptacle"
+category = "troubleshooting"
+complaint_templates = Array[String](["The GFCI in the {room} has no power and the reset button will not stay in.", "Nothing plugged into the {room} GFCI works, even after I press reset."])
+difficulty = 2
+base_compensation = 223
+generation_strategy = "device_fault"
+objective_templates = Array[String](["Restore safe power at the failed GFCI"])
+kind = "bad_gfci"
+issue = "GFCI won't reset (%s)"
+greeting = "The outlet in the %s is dead. I pushed the reset button a hundred times. It just won't stay in."
+answer_when = "This morning, right after my shower."
+answer_touched = "The breaker's on. It's the button on the outlet that won't hold."
+answer_new = "Nothing new. Just my hair dryer."
+box = "outlet"
+box_fault = "bad_gfci"
+quote_part = "GFCI"
+weight = 4.0
+eligibility = Array[String](["has_working:GFCI"])
+labor_minutes = 40
+materials = Array[String](["GFCI"])

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "drill_kit"
+name = "Cordless Drill/Driver Kit"
+sub = "20V, Brushless, 2 Batteries"
+category = "Power Tools"
+price = 199
+was = 229
+stars = 4.7
+reviews = 487
+description = "Drills, drives and spins a hole saw through a stud. Two batteries and a charger in a hard case."
+effect = ""
+amount = 0
+vehicle = ""

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_ukkgw"]
+
+[resource]
+script = ExtResource("1_ukkgw")
+kind = "loose"
+issue = "Dead outlet in the %s"
+greeting = "One of the outlets in the %s quit on me. The rest of the room works, and the breaker's not tripped. I checked."
+answer_when = "Yesterday. It flickered for a week before that, if you wiggled the plug."
+answer_touched = "I flipped the breaker off and on. Nothing changed."
+answer_new = "No, just the same lamp that's always on it."
+box = "outlet"
+box_fault = "loose"

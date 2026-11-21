@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_3p6jp"]
+
+[resource]
+script = ExtResource("1_3p6jp")
+kind = "open"
+family = "panel"
+issue = "No power to the %s"
+greeting = "Thank goodness. There's no power to the %s, and the breaker doesn't even look tripped."
+answer_when = "This morning. It was fine, then it just wasn't. No bang or anything."
+answer_touched = "I flipped it off and on a dozen times. It moves, but it feels mushy and nothing comes back."
+answer_new = "No, nothing new at all."
+definition_id = "open"
+generation_strategy = "breaker_fault"
+weight = 10.0
+eligibility = Array[String](["has_live_circuit"])
+urgency = "emergency"
+labor_minutes = 45
+materials = Array[String](["breaker20"])

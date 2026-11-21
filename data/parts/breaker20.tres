@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_0va52"]
+
+[resource]
+script = ExtResource("1_0va52")
+id = "breaker20"
+name = "20 A breaker"
+price = 11
+breaker_rating = 20
+category = "Breakers"
+short = "20 A breaker"
+description = "Single-pole, 20 amps. For 12-gauge circuits: kitchen counters, bathrooms, laundry."

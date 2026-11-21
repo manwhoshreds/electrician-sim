@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_38edg"]
+
+[resource]
+script = ExtResource("1_38edg")
+kind = "light_nut"
+issue = "No light in the %s"
+greeting = "The light in the %s won't come on. Sometimes it comes on if you slam a door. New bulb didn't help."
+answer_when = "On and off for a month. It's been off since yesterday."
+answer_touched = "The breaker's on. Everything else is fine."
+answer_new = "Nothing. Just the bulb."
+box = "fixture"
+box_fault = "loose_nut"
+definition_id = "light_nut"
+generation_strategy = "on_arrival"
+weight = 4.0
+eligibility = Array[String](["has_working:Fixture"])
+labor_minutes = 30

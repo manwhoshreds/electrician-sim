@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_uyeut"]
+
+[resource]
+script = ExtResource("1_uyeut")
+id = "GFCI"
+name = "GFCI receptacle"
+price = 18
+category = "Devices"
+short = "GFCI"
+description = "15 A GFCI receptacle. Required in bathrooms, kitchens and wet locations. LINE screws for the feed."

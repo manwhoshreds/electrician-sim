@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="JobType" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/job_type.gd" id="1_w63kc"]
+
+[resource]
+script = ExtResource("1_w63kc")
+definition_id = "light_fixture"
+title = "Failed lighting fixture"
+category = "troubleshooting"
+complaint_templates = Array[String](["The {room} light popped and went dark, but everything else still works.", "A new bulb did not bring the {room} light back on."])
+difficulty = 2
+base_compensation = 240
+generation_strategy = "device_fault"
+objective_templates = Array[String](["Restore normal operation of the lighting fixture"])
+kind = "light_fixture"
+issue = "No light in the %s"
+greeting = "The light in the %s won't come on. There was a pop and a burnt smell, and now nothing."
+answer_when = "This morning. Pop, a flash in the glass, and a smell."
+answer_touched = "The breaker's fine. The other stuff on it works."
+answer_new = "Only the bulb. I tried two different ones."
+box = "fixture"
+box_fault = "scorched"
+quote_part = "Fixture"
+weight = 4.0
+eligibility = Array[String](["has_working:Fixture"])
+labor_minutes = 45
+materials = Array[String](["Fixture"])

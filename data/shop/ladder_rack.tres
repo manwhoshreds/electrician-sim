@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "ladder_rack"
+name = "Ladder Rack"
+sub = "Full-Size Pickup"
+category = "Truck & Vehicle"
+price = 499
+was = 0
+stars = 4.7
+reviews = 92
+description = "Steel overhead rack. Your ladders ride up top, leaving the bed for two more things."
+effect = "truck_space"
+amount = 2
+vehicle = ""

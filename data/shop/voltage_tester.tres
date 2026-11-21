@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShopItem" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_item.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "voltage_tester"
+name = "Non-Contact Voltage Tester"
+sub = "12-1000V, Pen Style"
+category = "Tools"
+price = 24
+was = 0
+stars = 4.6
+reviews = 1132
+description = "Beeps and lights up near a live wire. A quick check before you put your hands in a box."
+effect = ""
+amount = 0
+vehicle = ""

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PartSpec" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/part_spec.gd" id="1_5rbap"]
+
+[resource]
+script = ExtResource("1_5rbap")
+id = "Fan"
+name = "Ceiling fan with light"
+price = 120
+size = 6
+category = "Lighting"
+short = "Ceiling fan"
+description = "Ceiling fan with a light kit. Heavy: needs a fan-rated box."
